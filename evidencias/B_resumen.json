@@ -1,0 +1,23 @@
+{
+  "escenario": "B - Vehículo en mantenimiento + urgentes",
+  "intentos": [
+    {
+      "intento": 1,
+      "plan_final": "V1: P07 > P03 > P12 > P16 > P01 > P17 ; V1: ALM > P02 > P15 > P13 > P14 > P11 ; V3: P08 > P05 > P06 ; V3: ALM > P09 > P10",
+      "factible": false
+    },
+    {
+      "intento": 2,
+      "plan_final": "V1: P07 > P03 > P01 > P16 > P12 > ALM > P04 > P09 > P11 > ALM ; V3: P05 > P17 > P02 > ALM > P13 > P14 > P08 > P15 > P06 > P10 > ALM",
+      "factible": true
+    }
+  ],
+  "plan_final": "V1: P07 > P03 > P01 > P16 > P12 > ALM > P04 > P09 > P11 > ALM ; V3: P05 > P17 > P02 > ALM > P13 > P14 > P08 > P15 > P06 > P10 > ALM",
+  "uso": {
+    "prompt_tokens": 74913,
+    "completion_tokens": 27637,
+    "total_tokens": 102550,
+    "successful_requests": 43
+  },
+  "segundos": 224.3
+}

@@ -1,0 +1,15 @@
+# Secretos y entorno local
+.env
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# Archivos temporales de PowerPoint/Office
+~$*
+
+# Logs locales (incluyen rutas del equipo)
+*.log
+
+# Versiones intermedias de la presentación
+Hackathon-7-original-import.pptx
+Presentacion_Hackathon7.pptx

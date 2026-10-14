@@ -1,0 +1,10 @@
+crewai>=1.0.0
+groq
+litellm
+python-dotenv
+pandas
+matplotlib
+ipykernel
+nbformat
+nbconvert
+truststore
